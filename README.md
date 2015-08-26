@@ -20,21 +20,21 @@ class DatabaseHandler:
         self
 
     def is_leader(self):
-      // determine if process is the leader
-      // returns boolean
+      # determine if process is the leader
+      # returns boolean
 
     def passes_health_requirements(self, members_array):
-      // determine if this member is healthy enough to become primary 
-      // returns boolean
+      # determine if this member is healthy enough to become primary 
+      # returns boolean
 
     def promote(self):
-      // actions taken, which promotes this member to leadership
+      # actions taken, which promotes this member to leadership
 
     def demote(self, leader):
-      // actions taken to demote this member from leadership
+      # actions taken to demote this member from leadership
 
     def follow_the_leader(self, leader):
-      // actions taken to ensure secondary member is following proper leader
+      # actions taken to ensure secondary member is following proper leader
 ```
 
 Then, supply your initialized class to the a ConsulHa class:
